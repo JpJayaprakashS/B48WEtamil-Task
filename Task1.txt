@@ -1,0 +1,34 @@
+1. Difference between HTTP1.1 vs HTTP2 :
+
+            HTTP/1.1                                                            HTTP/2
+              
+ * It works on the textual format.                                     * It works on the binary protocal.
+
+ * There is head of line blocking that                                 * It allows multiplexing so one TCP connection is 
+blocks all the requests behind it until                             required for multiple requests. 
+it doesn't get its all resources. 
+
+ * It uses requests resource inlinig for                               * It uses PUSH frame by server that collects all 
+use getting multiple pages.                                          multiple pages.     
+
+ * It compresses data by itself.                                       * It uses HPACK for data compression.
+
+
+2. Objects and its internal representationn JavaScript :
+    
+    Objects :=>
+
+    * Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript.
+ 
+    * These objects are quite different from JavaSript's primitive data types (Number, String, Boolean, null, undefined and symboll) in the sense that these primitive data types all store a single value each(depending on their types).
+
+   * Objects in JavaScript may be defined as an unordered collection of related dat, of primitive or references types, in the for of "key : value" pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Object and properties :=>
+
+   * A JavaScript obect has properties associated with it. 
+
+   * A property of an object can be explained as a variable that is attached to the object.
+
+   * Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot -notation.
+
